@@ -9,10 +9,10 @@ sudo apt update && sudo apt upgrade -y
 
 #### install nvidia driver (automatic step)
 ```
-sudo apt install ubuntu-drivers-common
+sudo apt install ubuntu-drivers-common -y
 ```
 ```
-sudo ubuntu-drivers autoinstall -y
+sudo ubuntu-drivers autoinstall
 ```
 ```
 sudo reboot
