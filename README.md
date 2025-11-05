@@ -12,7 +12,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install ubuntu-drivers-common
 ```
 ```
-sudo ubuntu-drivers autoinstall
+sudo ubuntu-drivers autoinstall -y
 ```
 ```
 sudo reboot
